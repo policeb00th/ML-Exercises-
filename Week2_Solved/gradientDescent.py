@@ -1,17 +1,6 @@
 import numpy as np
 from computeCost import computeCost
 #returns updated value of theta
-#Two functions doing the same thing
-'''def gradientDescent(X, y, theta, alpha, iterations):
-    # A.T implies using transpose of the matrix A
-    m=len(y)
-    for i in range(iterations):
-        temp = np.dot(X, theta) - y
-        temp = np.dot(X.T, temp)            #updating temp variable
-        theta = theta - (alpha/m) * temp
-        if(i%100==0):
-            print('Updated value of theta after ',i,' iterations is: ',theta)
-    return theta'''
 
 def gradientDescent(X,y,theta,alpha,num_iters):
     """
