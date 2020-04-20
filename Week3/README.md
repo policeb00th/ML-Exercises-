@@ -43,5 +43,6 @@ To enable this, we include the features and their polynomials raised to the sixt
 The file contains the cost function that needs to be completed by you, keep in mind to use the regularization forumla.
 The gradient function has already been completed for your ease.
 
+# will add regularization and clustering components
 
 
