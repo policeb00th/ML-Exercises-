@@ -43,6 +43,10 @@ To enable this, we include the features and their polynomials raised to the sixt
 The file contains the cost function that needs to be completed by you, keep in mind to use the regularization forumla.
 The gradient function has already been completed for your ease.
 
-# will add regularization and clustering components
+# Sklearn implementation
+The Sklearn libary is a boon to the community of machine learning, as it tremendously simplify the amount of code we have to write to achieve an accurate model. 
+* __sklearn_log.py__
+Contains the sklearn implementation of the Logistic regression problem we've implemented. Please go through it as it'll show you how our vast and multi file program reduces to merely 20 lines of code. Sklearn by default takes care of a lot of things for us, but allows us to customise functions as per our need. 
+Read the documentation about sklearn and try implemting our previous exercises using sklearn
 
 
