@@ -1,4 +1,4 @@
-# Logistic Regression
+# Week 3
 Install scipy and sklearn on your system using 
 ```
 pip install scipy, sklearn
@@ -25,6 +25,23 @@ The file that contains the cost function and gradient descend algorithms that ne
 The file that contains the function for applying sigmoid to a numpy array. **Make sure you complete this file first before proceeding to the costFunction file.**
 
 
-## Will add problems for regularization and logistic regression using sklearn.
+## Regularization
+Take a moment to go through the data in 'ex2data2.txt' as that is the data we'll be using for the regularization problem.
+Here the data is shown of whether a microchip is of quality or not.
+The first column contains the results of tests it underwent for test 1.
+The second column contains the results of tests it underwent for test 2.
+The third column shows whether it was selected or rejected.
+
+The components for the exercise is given below:
+
+* __regularizationmain.py__
+The main file for the program, which will be using other files to  run the program.
+An important difference is the use of feature mapping to increase the number of features. This is done to generate more features from existing ones, since the data we're fitting is non linear hence a line will never be able to fit it.
+To enable this, we include the features and their polynomials raised to the sixth power as features too.
+
+* __costFunctionReg.py__
+The file contains the cost function that needs to be completed by you, keep in mind to use the regularization forumla.
+The gradient function has already been completed for your ease.
+
 
 
