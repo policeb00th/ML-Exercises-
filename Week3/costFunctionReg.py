@@ -9,7 +9,7 @@ def costFunctionReg(theta, reg, X, y):
     m = y.size
     h = sigmoid(X.dot(theta))
     theta_J = theta[1:]
-    regparameter =                                                                                  # the calue added to the cost function
+    regparameter =                                                                                  # the value added to the cost function
     J = -1*(1/m)*((np.log(h).T).dot(y)+np.log(1-h).T.dot(1-y)) + regparameter
     if np.isnan(J[0]):
         return(np.inf)
