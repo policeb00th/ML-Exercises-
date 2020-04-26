@@ -49,4 +49,7 @@ The Sklearn libary is a boon to the community of machine learning, as it tremend
 Contains the sklearn implementation of the Logistic regression problem we've implemented. Please go through it as it'll show you how our vast and multi file program reduces to merely 20 lines of code. Sklearn by default takes care of a lot of things for us, but allows us to customise functions as per our need. 
 Read the documentation about sklearn and try implemting our previous exercises using sklearn
 
+# Kmeas using Sklearn implemntation
+I have implemented an example of kmeans algorithm , clustering customers based on their loyalty and satisfaction. 
+I have implemented the elbow method, using kmeans inertia to determine the best number of clusters. You can read more about them [here](https://analyticsindiamag.com/beginners-guide-to-k-means-clustering/). There's an exercise towards the end of the file, and I hope you'll implement it :3
 
