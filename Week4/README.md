@@ -18,3 +18,6 @@ There are total four components in the file
  
  * digits_cls.pkl 
  The file you'll be generating by running Main.py to save the classifier, and the file Detector.py will  read to load in the classifier.
+
+## Optional Exercise
+Right now you're loading in data from one file, if you've gone through the openCV documentation,try and take the input from a livestream input via the webcam
